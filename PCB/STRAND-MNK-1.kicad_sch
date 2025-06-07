@@ -1058,7 +1058,7 @@
 	)
 	(text "Parnell"
 		(exclude_from_sim no)
-		(at 86.36 35.56 0)
+		(at 63.5 35.56 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1190,7 +1190,7 @@
 	)
 	(text "The Strand"
 		(exclude_from_sim no)
-		(at 40.64 35.56 0)
+		(at 17.78 35.56 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1354,6 +1354,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 20.32) (xy 101.6 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14865caf-f69f-4932-8c78-6931cb47b324")
+	)
+	(wire
+		(pts
 			(xy 71.12 83.82) (xy 78.74 83.82)
 		)
 		(stroke
@@ -1474,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 20.32) (xy 101.6 20.32)
+			(xy 71.12 20.32) (xy 78.74 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1504,7 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 20.32) (xy 48.26 33.02)
+			(xy 40.64 20.32) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1574,16 +1584,6 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 20.32) (xy 132.08 50.8)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "4da04a93-3622-4289-98bd-d74272b2f1ec")
-	)
-	(polyline
-		(pts
 			(xy 223.52 114.3) (xy 208.28 114.3)
 		)
 		(stroke
@@ -1654,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 20.32) (xy 55.88 20.32)
+			(xy 25.4 20.32) (xy 33.02 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1781,16 +1781,6 @@
 			(type default)
 		)
 		(uuid "90244eaf-e1b8-47da-829a-f77a65827f8f")
-	)
-	(wire
-		(pts
-			(xy 116.84 20.32) (xy 124.46 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927a34cd-1dc9-4814-8eed-18e2b4a89345")
 	)
 	(wire
 		(pts
@@ -2084,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 20.32) (xy 78.74 20.32)
+			(xy 48.26 20.32) (xy 55.88 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2111,6 +2101,16 @@
 			(type default)
 		)
 		(uuid "e716d23a-2136-4fb8-b9f7-0d9a23425ee4")
+	)
+	(wire
+		(pts
+			(xy 116.84 20.32) (xy 124.46 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81d847c-6043-495b-b64f-a087179bd8f5")
 	)
 	(polyline
 		(pts
@@ -2172,6 +2172,16 @@
 		)
 		(uuid "fa77eb91-a62a-479c-ab76-ebbaab49e220")
 	)
+	(polyline
+		(pts
+			(xy 109.22 20.32) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "fafd63dc-c6ec-4f84-a74d-e3413a0f6705")
+	)
 	(wire
 		(pts
 			(xy 168.91 114.3) (xy 170.18 114.3)
@@ -2182,9 +2192,19 @@
 		)
 		(uuid "fbbc4e98-0959-45e7-833b-8f8ea9baf2f5")
 	)
+	(wire
+		(pts
+			(xy 5.08 20.32) (xy 10.16 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c38cb-b508-45c3-aafc-c7b21603a3fc")
+	)
 	(global_label "STRAND-MNK-1"
 		(shape input)
-		(at 33.02 20.32 180)
+		(at 5.08 20.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2194,7 +2214,7 @@
 		)
 		(uuid "13d74e81-abe1-4f32-98d8-357f6a9493df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.4924 20.32 0)
+			(at 5.08 38.8476 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2314,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 86.36 12.7 0)
+		(at 63.5 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2303,7 +2323,7 @@
 		(fields_autoplaced yes)
 		(uuid "01fa7310-f769-434a-8d3d-a8de9396f348")
 		(property "Reference" "#PWR0278"
-			(at 86.36 16.51 0)
+			(at 63.5 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2332,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 86.36 8.5669 0)
+			(at 63.5 8.5669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 12.7 0)
+			(at 63.5 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 12.7 0)
+			(at 63.5 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 12.7 0)
+			(at 63.5 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08076042-2b07-458f-a614-d90180458346")
-		(property "Reference" "D333"
+		(property "Reference" "D334"
 			(at 233.8576 141.0734 0)
 			(effects
 				(font
@@ -2537,7 +2557,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D333")
+					(reference "D334")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 27.94 0)
+		(at 63.5 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2824,7 +2844,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f4aba00-d586-4791-811d-9a232f0e156c")
 		(property "Reference" "#PWR0279"
-			(at 86.36 34.29 0)
+			(at 63.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2853,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 32.0731 0)
+			(at 63.5 32.0731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 27.94 0)
+			(at 63.5 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 27.94 0)
+			(at 63.5 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 27.94 0)
+			(at 63.5 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18bfbd3d-11fc-461f-9072-9d1eeb03d889")
-		(property "Reference" "D330"
+		(property "Reference" "D331"
 			(at 165.2776 141.0734 0)
 			(effects
 				(font
@@ -3124,7 +3144,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D330")
+					(reference "D331")
 					(unit 1)
 				)
 			)
@@ -3272,7 +3292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e07f312-75f9-4080-8bd2-d1b91567651b")
-		(property "Reference" "D324"
+		(property "Reference" "D325"
 			(at 279.5776 77.5734 0)
 			(effects
 				(font
@@ -3375,7 +3395,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D324")
+					(reference "D325")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "254f2e68-40e0-4656-b748-6667b25fd417")
-		(property "Reference" "D337"
+		(property "Reference" "D338"
 			(at 73.8376 174.0934 0)
 			(effects
 				(font
@@ -3758,7 +3778,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D337")
+					(reference "D338")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d1655d-cb1e-4443-ba13-8604e00f90e8")
-		(property "Reference" "D313"
+		(property "Reference" "D314"
 			(at 73.8376 77.5734 0)
 			(effects
 				(font
@@ -3877,7 +3897,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D313")
+					(reference "D314")
 					(unit 1)
 				)
 			)
@@ -3959,7 +3979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd4c4ee-ace5-41ff-8a09-b7d3fdb9eaa5")
-		(property "Reference" "D318"
+		(property "Reference" "D319"
 			(at 165.2776 77.5734 0)
 			(effects
 				(font
@@ -4062,7 +4082,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D318")
+					(reference "D319")
 					(unit 1)
 				)
 			)
@@ -4210,7 +4230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3182cad6-fefd-49b1-b3ac-18caaf914fd4")
-		(property "Reference" "D331"
+		(property "Reference" "D332"
 			(at 188.1376 141.0734 0)
 			(effects
 				(font
@@ -4313,7 +4333,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D331")
+					(reference "D332")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31fe8a90-d65f-49ab-8a65-f60a761ba445")
-		(property "Reference" "D323"
+		(property "Reference" "D324"
 			(at 256.7176 77.5734 0)
 			(effects
 				(font
@@ -4432,7 +4452,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D323")
+					(reference "D324")
 					(unit 1)
 				)
 			)
@@ -4440,7 +4460,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 12.7 0)
+		(at 86.36 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4449,7 +4469,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f57bd6a-8841-4221-9557-ddc6c7195f68")
 		(property "Reference" "#PWR0280"
-			(at 109.22 16.51 0)
+			(at 86.36 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4478,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 8.5669 0)
+			(at 86.36 8.5669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 12.7 0)
+			(at 86.36 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 12.7 0)
+			(at 86.36 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 12.7 0)
+			(at 86.36 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4526,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Extended:LED, WS2812B, 1615")
-		(at 109.22 20.32 0)
+		(at 86.36 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4515,7 +4535,7 @@
 		(fields_autoplaced yes)
 		(uuid "41858f74-7873-47be-b8d3-d0f9a6b23886")
 		(property "Reference" "D303"
-			(at 119.5576 14.0734 0)
+			(at 96.6976 14.0734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4543,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 119.5576 16.4977 0)
+			(at 96.6976 16.4977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4551,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
-			(at 109.22 30.48 0)
+			(at 86.36 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230111/5AD58278EBED6B6650A81C53A19BF314.pdf"
-			(at 106.934 20.193 0)
+			(at 84.074 20.193 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4571,7 @@
 			)
 		)
 		(property "Description" "1615 RGB LEDs(Built-in IC) ROHS"
-			(at 109.22 20.32 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4580,7 @@
 			)
 		)
 		(property "LCSC" "C5349954"
-			(at 109.22 20.32 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4589,7 @@
 			)
 		)
 		(property "Part" "XL-1615RGBC-WS2812B"
-			(at 109.22 20.32 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4598,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 109.22 20.32 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4607,7 @@
 			)
 		)
 		(property "PartID" ""
-			(at 109.22 20.32 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4615,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 109.22 20.32 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4250d69f-a4f2-48b6-b889-d122e83eb8ec")
-		(property "Reference" "D308"
+		(property "Reference" "D309"
 			(at 210.9976 14.0734 0)
 			(effects
 				(font
@@ -4736,7 +4756,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D308")
+					(reference "D309")
 					(unit 1)
 				)
 			)
@@ -4818,7 +4838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43f88775-3607-4ba6-a0dd-65d76e8aadf9")
-		(property "Reference" "D305"
+		(property "Reference" "D306"
 			(at 142.4176 44.5534 0)
 			(effects
 				(font
@@ -4921,7 +4941,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D305")
+					(reference "D306")
 					(unit 1)
 				)
 			)
@@ -5003,7 +5023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4754106a-2a5e-489a-8340-6562f09b0e79")
-		(property "Reference" "D310"
+		(property "Reference" "D311"
 			(at 256.7176 14.0734 0)
 			(effects
 				(font
@@ -5106,7 +5126,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D310")
+					(reference "D311")
 					(unit 1)
 				)
 			)
@@ -5245,8 +5265,127 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, WS2812B, 1615")
+		(at 109.22 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "518f4b97-a4ce-4cf7-9487-157f01ba14c4")
+		(property "Reference" "D304"
+			(at 119.5576 11.6491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 119.5576 14.0734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230111/5AD58278EBED6B6650A81C53A19BF314.pdf"
+			(at 106.934 20.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1615 RGB LEDs(Built-in IC) ROHS"
+			(at 109.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349954"
+			(at 109.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "XL-1615RGBC-WS2812B"
+			(at 109.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 109.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartID" ""
+			(at 109.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 119.5576 16.4977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "599a5008-2fc4-49f3-a2bb-a8671d415de6")
+		)
+		(pin "4"
+			(uuid "93f35fc8-fda1-4bd7-beaa-697be80bf508")
+		)
+		(pin "3"
+			(uuid "cd747326-797e-401c-ba70-4a846a94d9b5")
+		)
+		(pin "1"
+			(uuid "3a971e6f-667e-4202-a720-c6516fd46901")
+		)
+		(instances
+			(project "Auckland-LED-Train-Map"
+				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
+					(reference "D304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 109.22 27.94 0)
+		(at 86.36 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5255,7 +5394,7 @@
 		(fields_autoplaced yes)
 		(uuid "52516a8d-ae5d-4d0c-92ba-3e19ba652003")
 		(property "Reference" "#PWR0281"
-			(at 109.22 34.29 0)
+			(at 86.36 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 32.0731 0)
+			(at 86.36 32.0731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 27.94 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 27.94 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 27.94 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5517,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 27.94 0)
+		(at 17.78 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5387,7 +5526,7 @@
 		(fields_autoplaced yes)
 		(uuid "55ac8976-6db5-4e78-a829-b438b73444bb")
 		(property "Reference" "#PWR0275"
-			(at 40.64 34.29 0)
+			(at 17.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 32.0731 0)
+			(at 17.78 32.0731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 27.94 0)
+			(at 17.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +5552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 27.94 0)
+			(at 17.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 27.94 0)
+			(at 17.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a6e1205-7a60-4119-84ec-99b47969e4a4")
-		(property "Reference" "D320"
+		(property "Reference" "D321"
 			(at 210.9976 77.5734 0)
 			(effects
 				(font
@@ -5687,7 +5826,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D320")
+					(reference "D321")
 					(unit 1)
 				)
 			)
@@ -5754,6 +5893,72 @@
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
 					(reference "#PWR0323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c1404f4-cc5b-45a1-8ba3-bdf50bde0009")
+		(property "Reference" "#PWR0392"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 32.0731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07b20923-aa5d-467e-9f92-ed9c2bdcc728")
+		)
+		(instances
+			(project "Auckland-LED-Train-Map"
+				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
+					(reference "#PWR0392")
 					(unit 1)
 				)
 			)
@@ -5835,7 +6040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6427b0-a2dd-4c86-81a8-e37310b79e4a")
-		(property "Reference" "D325"
+		(property "Reference" "D326"
 			(at 50.9776 141.0734 0)
 			(effects
 				(font
@@ -5938,7 +6143,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D325")
+					(reference "D326")
 					(unit 1)
 				)
 			)
@@ -6005,6 +6210,72 @@
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
 					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 12.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe9ffb8-d28d-475d-b0f4-a4386dd50582")
+		(property "Reference" "#PWR026"
+			(at 109.22 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 8.5669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f95c288a-0f32-43a9-96b6-92cc9ac6f9f3")
+		)
+		(instances
+			(project "Auckland-LED-Train-Map"
+				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6218,7 +6489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "681cff86-9375-4b4e-8334-182f9fc40830")
-		(property "Reference" "D317"
+		(property "Reference" "D318"
 			(at 142.4176 77.5734 0)
 			(effects
 				(font
@@ -6321,7 +6592,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D317")
+					(reference "D318")
 					(unit 1)
 				)
 			)
@@ -6469,7 +6740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e670c59-0c12-4a3c-b1eb-c7c9c07d13d6")
-		(property "Reference" "D321"
+		(property "Reference" "D322"
 			(at 233.8576 77.5734 0)
 			(effects
 				(font
@@ -6572,7 +6843,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D321")
+					(reference "D322")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776fbc3b-a0aa-4664-b50f-f14e0c773d6a")
-		(property "Reference" "D328"
+		(property "Reference" "D329"
 			(at 119.5576 141.0734 0)
 			(effects
 				(font
@@ -6823,7 +7094,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D328")
+					(reference "D329")
 					(unit 1)
 				)
 			)
@@ -6905,7 +7176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803e1fcb-52f6-4f78-9917-db4165e671d6")
-		(property "Reference" "D311"
+		(property "Reference" "D312"
 			(at 279.5776 14.0734 0)
 			(effects
 				(font
@@ -7008,7 +7279,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D311")
+					(reference "D312")
 					(unit 1)
 				)
 			)
@@ -7156,7 +7427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "883082a0-7bcc-44f8-8057-a4ec96ff7e2a")
-		(property "Reference" "D339"
+		(property "Reference" "D340"
 			(at 119.5576 174.0934 0)
 			(effects
 				(font
@@ -7259,7 +7530,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D339")
+					(reference "D340")
 					(unit 1)
 				)
 			)
@@ -7341,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f850fb-713b-4c5d-9dd0-9ac834b415ea")
-		(property "Reference" "D306"
+		(property "Reference" "D307"
 			(at 188.1376 14.0734 0)
 			(effects
 				(font
@@ -7444,7 +7715,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D306")
+					(reference "D307")
 					(unit 1)
 				)
 			)
@@ -7518,7 +7789,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.64 12.7 0)
+		(at 17.78 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7527,7 +7798,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b0c9b22-8441-4f07-80cd-4bab2abbe2c0")
 		(property "Reference" "#PWR0274"
-			(at 40.64 16.51 0)
+			(at 17.78 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7807,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 40.64 8.5669 0)
+			(at 17.78 8.5669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 12.7 0)
+			(at 17.78 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 12.7 0)
+			(at 17.78 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.64 12.7 0)
+			(at 17.78 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9019bd8a-8480-4913-afbc-c2568206b0d2")
-		(property "Reference" "D334"
+		(property "Reference" "D335"
 			(at 256.7176 141.0734 0)
 			(effects
 				(font
@@ -7695,7 +7966,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D334")
+					(reference "D335")
 					(unit 1)
 				)
 			)
@@ -8303,7 +8574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 27.94 0)
+		(at 40.64 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8312,7 +8583,7 @@
 		(fields_autoplaced yes)
 		(uuid "a39fb4a2-7803-43df-a4f6-38aeaa1de201")
 		(property "Reference" "#PWR0277"
-			(at 63.5 34.29 0)
+			(at 40.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +8592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 32.0731 0)
+			(at 40.64 32.0731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 27.94 0)
+			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 27.94 0)
+			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 27.94 0)
+			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a575f3d6-5d26-4b4b-b507-17ef2eebebac")
-		(property "Reference" "D315"
+		(property "Reference" "D316"
 			(at 96.6976 108.0534 0)
 			(effects
 				(font
@@ -8546,7 +8817,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D315")
+					(reference "D316")
 					(unit 1)
 				)
 			)
@@ -8554,7 +8825,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 12.7 0)
+		(at 40.64 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8563,7 +8834,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa04e332-8aad-4016-85b4-f30fa60954af")
 		(property "Reference" "#PWR0276"
-			(at 63.5 16.51 0)
+			(at 40.64 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8843,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 63.5 8.5669 0)
+			(at 40.64 8.5669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 12.7 0)
+			(at 40.64 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +8860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 12.7 0)
+			(at 40.64 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 12.7 0)
+			(at 40.64 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +9097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3416c70-6918-46f1-aed1-d97c0b7f4e2f")
-		(property "Reference" "D335"
+		(property "Reference" "D336"
 			(at 279.5776 141.0734 0)
 			(effects
 				(font
@@ -8929,7 +9200,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D335")
+					(reference "D336")
 					(unit 1)
 				)
 			)
@@ -9341,7 +9612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5214f4-6b94-4ae5-b89c-e05847ed6f99")
-		(property "Reference" "D309"
+		(property "Reference" "D310"
 			(at 233.8576 14.0734 0)
 			(effects
 				(font
@@ -9444,7 +9715,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D309")
+					(reference "D310")
 					(unit 1)
 				)
 			)
@@ -9518,7 +9789,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Extended:LED, WS2812B, 1615")
-		(at 63.5 20.32 0)
+		(at 40.64 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9527,7 +9798,7 @@
 		(fields_autoplaced yes)
 		(uuid "be05827e-2a3c-4fac-bf34-6789b36a4e41")
 		(property "Reference" "D301"
-			(at 73.8376 14.0734 0)
+			(at 50.9776 14.0734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9806,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 73.8376 16.4977 0)
+			(at 50.9776 16.4977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9814,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
-			(at 63.5 30.48 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9824,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230111/5AD58278EBED6B6650A81C53A19BF314.pdf"
-			(at 61.214 20.193 0)
+			(at 38.354 20.193 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9834,7 @@
 			)
 		)
 		(property "Description" "1615 RGB LEDs(Built-in IC) ROHS"
-			(at 63.5 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,7 +9843,7 @@
 			)
 		)
 		(property "LCSC" "C5349954"
-			(at 63.5 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9852,7 @@
 			)
 		)
 		(property "Part" "XL-1615RGBC-WS2812B"
-			(at 63.5 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9861,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 63.5 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9870,7 @@
 			)
 		)
 		(property "PartID" ""
-			(at 63.5 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9878,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 63.5 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +10048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c065874b-7d77-495e-9ffd-4f41af86e98a")
-		(property "Reference" "D326"
+		(property "Reference" "D327"
 			(at 73.8376 141.0734 0)
 			(effects
 				(font
@@ -9880,7 +10151,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D326")
+					(reference "D327")
 					(unit 1)
 				)
 			)
@@ -9896,7 +10167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1fab30a-bde8-4c99-af59-a3cc6c80bce3")
-		(property "Reference" "D316"
+		(property "Reference" "D317"
 			(at 119.5576 77.5734 0)
 			(effects
 				(font
@@ -9999,7 +10270,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D316")
+					(reference "D317")
 					(unit 1)
 				)
 			)
@@ -10015,7 +10286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c492e48a-66e4-4e2b-ae6e-9da305ff569a")
-		(property "Reference" "D304"
+		(property "Reference" "D305"
 			(at 142.4176 14.0734 0)
 			(effects
 				(font
@@ -10118,7 +10389,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D304")
+					(reference "D305")
 					(unit 1)
 				)
 			)
@@ -10200,7 +10471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e61986-43d0-4357-bd51-3dbde09fdf4c")
-		(property "Reference" "D329"
+		(property "Reference" "D330"
 			(at 142.4176 141.0734 0)
 			(effects
 				(font
@@ -10303,7 +10574,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D329")
+					(reference "D330")
 					(unit 1)
 				)
 			)
@@ -10385,7 +10656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb1714e9-8674-4282-810d-2594d990d238")
-		(property "Reference" "D312"
+		(property "Reference" "D313"
 			(at 50.9776 77.5734 0)
 			(effects
 				(font
@@ -10488,7 +10759,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D312")
+					(reference "D313")
 					(unit 1)
 				)
 			)
@@ -10504,7 +10775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb1960fd-fc33-4d8c-acd7-f7eda7a3a3cc")
-		(property "Reference" "D327"
+		(property "Reference" "D328"
 			(at 96.6976 141.0734 0)
 			(effects
 				(font
@@ -10607,7 +10878,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D327")
+					(reference "D328")
 					(unit 1)
 				)
 			)
@@ -10623,7 +10894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdaf8e28-6778-41c2-abff-63fbf8a0da5a")
-		(property "Reference" "D322"
+		(property "Reference" "D323"
 			(at 233.8576 108.0534 0)
 			(effects
 				(font
@@ -10726,7 +10997,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D322")
+					(reference "D323")
 					(unit 1)
 				)
 			)
@@ -10874,7 +11145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4aec2e1-84e1-47e8-9aad-b37a5cd099a6")
-		(property "Reference" "D319"
+		(property "Reference" "D320"
 			(at 188.1376 108.0534 0)
 			(effects
 				(font
@@ -10977,7 +11248,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D319")
+					(reference "D320")
 					(unit 1)
 				)
 			)
@@ -10993,7 +11264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d593ad10-2640-4c78-b7e5-c57f4567ec3b")
-		(property "Reference" "D332"
+		(property "Reference" "D333"
 			(at 210.9976 141.0734 0)
 			(effects
 				(font
@@ -11096,7 +11367,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D332")
+					(reference "D333")
 					(unit 1)
 				)
 			)
@@ -11170,7 +11441,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Extended:LED, WS2812B, 1615")
-		(at 86.36 20.32 0)
+		(at 63.5 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11179,7 +11450,7 @@
 		(fields_autoplaced yes)
 		(uuid "db456e61-8422-4d34-b83c-045b222011c5")
 		(property "Reference" "D302"
-			(at 96.6976 14.0734 0)
+			(at 73.8376 14.0734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11187,7 +11458,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 96.6976 16.4977 0)
+			(at 73.8376 16.4977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +11466,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
-			(at 86.36 30.48 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11205,7 +11476,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230111/5AD58278EBED6B6650A81C53A19BF314.pdf"
-			(at 84.074 20.193 0)
+			(at 61.214 20.193 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11486,7 @@
 			)
 		)
 		(property "Description" "1615 RGB LEDs(Built-in IC) ROHS"
-			(at 86.36 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11495,7 @@
 			)
 		)
 		(property "LCSC" "C5349954"
-			(at 86.36 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +11504,7 @@
 			)
 		)
 		(property "Part" "XL-1615RGBC-WS2812B"
-			(at 86.36 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11242,7 +11513,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 86.36 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +11522,7 @@
 			)
 		)
 		(property "PartID" ""
-			(at 86.36 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11259,7 +11530,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 86.36 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,7 +12168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb6005b-7a73-4c24-9cdf-d0913da70584")
-		(property "Reference" "D307"
+		(property "Reference" "D308"
 			(at 188.1376 44.5534 0)
 			(effects
 				(font
@@ -12000,7 +12271,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D307")
+					(reference "D308")
 					(unit 1)
 				)
 			)
@@ -12016,7 +12287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f051fd66-4e1c-44e7-b814-a5dc1960040b")
-		(property "Reference" "D336"
+		(property "Reference" "D337"
 			(at 50.9776 174.0934 0)
 			(effects
 				(font
@@ -12119,7 +12390,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D336")
+					(reference "D337")
 					(unit 1)
 				)
 			)
@@ -12399,7 +12670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f911c193-fa97-4886-bae4-df43daf7c88b")
-		(property "Reference" "D314"
+		(property "Reference" "D315"
 			(at 96.6976 77.5734 0)
 			(effects
 				(font
@@ -12502,7 +12773,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D314")
+					(reference "D315")
 					(unit 1)
 				)
 			)
@@ -12510,7 +12781,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Extended:LED, WS2812B, 1615")
-		(at 40.64 20.32 0)
+		(at 17.78 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12519,7 +12790,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb6cc679-1060-4a47-9369-bc29bf1139da")
 		(property "Reference" "D300"
-			(at 50.9776 14.0734 0)
+			(at 28.1176 14.0734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +12798,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 50.9776 16.4977 0)
+			(at 28.1176 16.4977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,7 +12806,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
-			(at 40.64 30.48 0)
+			(at 17.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +12816,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230111/5AD58278EBED6B6650A81C53A19BF314.pdf"
-			(at 38.354 20.193 0)
+			(at 15.494 20.193 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12826,7 @@
 			)
 		)
 		(property "Description" "1615 RGB LEDs(Built-in IC) ROHS"
-			(at 40.64 20.32 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12835,7 @@
 			)
 		)
 		(property "LCSC" "C5349954"
-			(at 40.64 20.32 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +12844,7 @@
 			)
 		)
 		(property "Part" "XL-1615RGBC-WS2812B"
-			(at 40.64 20.32 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12582,7 +12853,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 40.64 20.32 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12591,7 +12862,7 @@
 			)
 		)
 		(property "PartID" ""
-			(at 40.64 20.32 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12599,7 +12870,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 40.64 20.32 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbb1110c-8788-4e23-9243-fa8a6fd0ae80")
-		(property "Reference" "D338"
+		(property "Reference" "D339"
 			(at 96.6976 174.0934 0)
 			(effects
 				(font
@@ -12740,7 +13011,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e"
-					(reference "D338")
+					(reference "D339")
 					(unit 1)
 				)
 			)

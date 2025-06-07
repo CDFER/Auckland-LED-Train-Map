@@ -2997,7 +2997,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Capacitors:0603,10uF"
+		(symbol "PCM_JLCPCB-Capacitors:CASE-A-3216-18(mm),10uF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3025,7 +3025,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:C_0603"
+			(property "Footprint" "PCM_JLCPCB:C_CASE-A-3216-18(mm)"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -3034,7 +3034,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3043,7 +3043,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Description" "10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3052,7 +3052,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C19702"
+			(property "LCSC" "C7171"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3061,7 +3061,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "9587232"
+			(property "Stock" "1320174"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3070,7 +3070,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.009USD"
+			(property "Price" "0.151USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3088,7 +3088,7 @@
 					(hide yes)
 				)
 			)
-			(property "Minimum Qty" "20"
+			(property "Minimum Qty" "5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3097,7 +3097,7 @@
 					(hide yes)
 				)
 			)
-			(property "Attrition Qty" "10"
+			(property "Attrition Qty" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3115,7 +3115,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(property "Category" "Capacitors,Tantalum Capacitors"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3124,7 +3124,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "AVX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3133,7 +3133,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "CL10A106KP8NNNC"
+			(property "Part" "TAJA106K016RNJ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3142,13 +3142,22 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage Rated" "10V"
-				(at 2.032 -2.0462 0)
+			(property "Operating Temperature" "-55°C~+125°C"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 0.8 0.8)
+						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Equivalent Series Resistance(ESR)" "3Ω@100kHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "Tolerance" "±10%"
@@ -3169,13 +3178,13 @@
 					(hide yes)
 				)
 			)
-			(property "Temperature Coefficient" "X5R"
-				(at 0 0 0)
+			(property "Rated Voltage" "16V"
+				(at 2.032 -2.0462 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
@@ -3187,7 +3196,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603,10uF_0_1"
+			(symbol "CASE-A-3216-18(mm),10uF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0.635) (xy 1.27 0.635)
@@ -3212,8 +3233,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.9525 1.5875) (xy -0.9525 0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "0603,10uF_1_1"
+			(symbol "CASE-A-3216-18(mm),10uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -13798,12 +13831,6 @@
 		(uuid "8dd5ea51-a40e-4749-9b72-a6980e79961b")
 	)
 	(junction
-		(at 83.82 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e34b1f7-3052-407a-a8b8-167ad10da159")
-	)
-	(junction
 		(at 190.5 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13832,6 +13859,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36727ea-d96a-41b9-bd59-2d0c57eabc4b")
+	)
+	(junction
+		(at 83.82 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55a41c8-d438-418d-a145-51dd0083e411")
 	)
 	(junction
 		(at 147.32 121.92)
@@ -14575,6 +14608,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71299bf9-2a54-4b3f-8ae0-f8ba8e5ca7c8")
+	)
+	(wire
+		(pts
 			(xy 180.34 55.88) (xy 189.23 55.88)
 		)
 		(stroke
@@ -14882,16 +14925,6 @@
 			(type default)
 		)
 		(uuid "b1ef9573-58d9-4ef9-8c02-1879509b34fe")
-	)
-	(wire
-		(pts
-			(xy 83.82 27.94) (xy 91.44 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3228199-9452-48c5-a8f5-28672e73e9ac")
 	)
 	(wire
 		(pts
@@ -22427,72 +22460,6 @@
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "465bb18e-c270-4607-83ed-ed54f7fc3a3b")
-		(property "Reference" "#PWR03"
-			(at 91.44 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 39.6931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34744abe-ace1-459f-85af-d01014b56de4")
-		)
-		(instances
-			(project "Auckland-LED-Train-Map"
-				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -32431,210 +32398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF")
-		(at 91.44 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2dade12-8569-4232-80b4-b916a33988d1")
-		(property "Reference" "C1"
-			(at 93.472 30.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 93.472 32.1282 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 89.662 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "9587232"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.009USD"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL10A106KP8NNNC"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "10V"
-			(at 93.472 33.7962 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "10uF"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartID" ""
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7d102f2-3f7e-41c2-af8b-4cd088d168c3")
-		)
-		(pin "2"
-			(uuid "d62a4853-ab4c-43bc-a177-47fcf9999d6b")
-		)
-		(instances
-			(project ""
-				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,0Ω")
 		(at 193.04 55.88 90)
 		(unit 1)
@@ -33888,210 +33651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF")
-		(at 83.82 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c49b25b7-74ee-4304-9203-90e3c1a2b5fc")
-		(property "Reference" "C25"
-			(at 85.852 30.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 85.852 32.1282 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 82.042 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "9587232"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.009USD"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL10A106KP8NNNC"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "10V"
-			(at 85.852 33.7962 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "10uF"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartID" ""
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b475f450-7ce5-4e03-8e92-b954d4998c3f")
-		)
-		(pin "2"
-			(uuid "bda252e4-415b-44e0-be94-ac8ccf2c16d4")
-		)
-		(instances
-			(project "Auckland-LED-Train-Map"
-				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Red")
 		(at 55.88 138.43 0)
 		(unit 1)
@@ -34344,6 +33903,211 @@
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:CASE-A-3216-18(mm),10uF")
+		(at 83.82 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ac9ba2-3d26-4365-b5d2-84eedb57531d")
+		(property "Reference" "C1"
+			(at 85.852 29.6375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 85.852 31.6837 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_CASE-A-3216-18(mm)"
+			(at 82.042 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7171"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1320174"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.151USD"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "2"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Tantalum Capacitors"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TAJA106K016RNJ"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+125°C"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equivalent Series Resistance(ESR)" "3Ω@100kHz"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "16V"
+			(at 85.852 33.3517 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "c7cc6582-dbec-42db-a559-4460dfbcdbba")
+		)
+		(pin "1"
+			(uuid "5e2c6de4-0d2c-4534-861a-c002a8e9c60d")
+		)
+		(instances
+			(project ""
+				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45"
+					(reference "C1")
 					(unit 1)
 				)
 			)

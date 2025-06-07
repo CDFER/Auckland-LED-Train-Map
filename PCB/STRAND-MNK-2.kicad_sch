@@ -522,7 +522,7 @@
 	)
 	(no_connect
 		(at 154.94 27.94)
-		(uuid "9f8c8837-d577-466f-8ade-9a2f5c01b5e9")
+		(uuid "78e57272-7a0e-41e9-bd92-b712ef27d613")
 	)
 	(polyline
 		(pts
@@ -748,7 +748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "410407dc-d7ba-4d57-bdd6-7b96f2436bd8")
-		(property "Reference" "D342"
+		(property "Reference" "D343"
 			(at 134.7976 21.6934 0)
 			(effects
 				(font
@@ -851,7 +851,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e/e16470c1-e6de-4b7a-8c2a-2890c425ddf6"
-					(reference "D342")
+					(reference "D343")
 					(unit 1)
 				)
 			)
@@ -867,7 +867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9387ae-264c-4202-b0f4-44ef7ddfefbe")
-		(property "Reference" "D343"
+		(property "Reference" "D344"
 			(at 157.6576 21.6934 0)
 			(effects
 				(font
@@ -970,7 +970,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e/e16470c1-e6de-4b7a-8c2a-2890c425ddf6"
-					(reference "D343")
+					(reference "D344")
 					(unit 1)
 				)
 			)
@@ -1052,7 +1052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b6e2720-d346-4eba-8a77-673b2552c38b")
-		(property "Reference" "D341"
+		(property "Reference" "D342"
 			(at 111.9376 21.6934 0)
 			(effects
 				(font
@@ -1155,7 +1155,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e/e16470c1-e6de-4b7a-8c2a-2890c425ddf6"
-					(reference "D341")
+					(reference "D342")
 					(unit 1)
 				)
 			)
@@ -1501,7 +1501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc850b9-5ae8-4331-829d-c3c76e5057a1")
-		(property "Reference" "D340"
+		(property "Reference" "D341"
 			(at 50.9776 21.6934 0)
 			(effects
 				(font
@@ -1604,7 +1604,7 @@
 		(instances
 			(project "Auckland-LED-Train-Map"
 				(path "/ab288f7d-a01b-40d1-8b79-fa22fb371f45/dbd0708e-69d8-4d43-bcc7-3988563b469e/e16470c1-e6de-4b7a-8c2a-2890c425ddf6"
-					(reference "D340")
+					(reference "D341")
 					(unit 1)
 				)
 			)
