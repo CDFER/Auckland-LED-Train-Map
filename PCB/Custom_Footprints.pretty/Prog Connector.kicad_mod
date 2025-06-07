@@ -60,18 +60,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "50d205e1-9712-4e2a-bc73-9067786df019")
-	)
-	(fp_line
-		(start -1.38 0)
-		(end -1.38 -1.38)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8dcffc7a-cc6b-435e-a006-a109fdb4870d")
 	)
 	(fp_line
 		(start -1.38 -1.38)
@@ -92,6 +82,16 @@
 		)
 		(layer "B.SilkS")
 		(uuid "52df5465-97b5-450f-a066-3c7173ddbbce")
+	)
+	(fp_line
+		(start -1.38 0)
+		(end -1.38 -1.38)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "8dcffc7a-cc6b-435e-a006-a109fdb4870d")
 	)
 	(fp_line
 		(start -1.77 -1.77)
@@ -758,52 +758,40 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" smd rect
 		(at 0 0)
 		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "1e44da1d-37ae-4790-b9e1-96ec9c11be62")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" smd circle
 		(at 0 2.54)
 		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "8f2480a5-586f-4e58-a5cf-d852ed4c089f")
 	)
-	(pad "3" thru_hole circle
+	(pad "3" smd circle
 		(at 0 5.08)
 		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "f9a73141-bc15-42a6-9856-804e3166172e")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" smd circle
 		(at 0 7.62)
 		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "a7e0c519-efcd-4b70-a8f6-c71f0e5c5c61")
 	)
-	(pad "5" thru_hole circle
+	(pad "5" smd circle
 		(at 0 10.16)
 		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "4b7958c5-8d21-4600-9686-cd0928684475")
 	)
-	(pad "6" thru_hole circle
+	(pad "6" smd circle
 		(at 0 12.7)
 		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "2a4de474-8869-43cc-87be-9f486f8b015e")
 	)
 	(embedded_fonts no)
