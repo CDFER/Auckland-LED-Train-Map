@@ -85,6 +85,8 @@ void WiFiImprovSetup() {
 	while (wifiNetworkIndex < MAX_WIFI_NETWORKS) {
 		if (strlen(savedWiFi[wifiNetworkIndex].ssid) > 0) {
 			wifiConnected = attemptConnectToSavedWiFi(wifiNetworkIndex);
+			if (wifiConnected)
+				break;	// Exit loop if connected
 		}
 		wifiNetworkIndex++;
 	}

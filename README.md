@@ -1,61 +1,112 @@
 # Auckland Live LED Train Map
 
-![PCB Overview Render](Images/Auckland-LED-Train-Map-Render.avif) A project to create a physical map of the Auckland train network where train movements are displayed in real-time using individually addressable LEDs. The map is controlled by an ESP32-C3 microcontroller, fetching live data over Wi-Fi.
+A physical, real-time LED map of the Auckland train network, powered by an ESP32-C3 microcontroller. Train movements are displayed using addressable RGB LEDs, with live data fetched over Wi-Fi.
+
+---
+
+## Table of Contents
+
+- [Auckland Live LED Train Map](#auckland-live-led-train-map)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Hardware](#hardware)
+  - [PCB Design](#pcb-design)
+  - [Software / Firmware](#software--firmware)
+  - [Getting Started](#getting-started)
+  - [Web Installer](#web-installer)
+  - [Links](#links)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+---
+
+![PCB Overview Render](Images/Auckland-LED-Train-Map-Render.avif)
 
 ## Features
 
-* **Real-time Train Tracking:** Displays the approximate locations of trains on the Auckland network.
-* **Addressable LEDs:** Uses approximately 150 small (1.6x1.5mm) WS2812B-compatible RGB LEDs for vibrant display.
-* **Wi-Fi Connectivity:** Leverages the ESP32-C3's built-in Wi-Fi to fetch live train data.
-* **Custom PCB:** Designed specifically for this project, fitting within common PCB manufacturer limits (JLCPCB).
-* **Open Source:** Hardware design files and (eventually) firmware are open source.
+- **Real-time Train Tracking:** Displays the approximate locations of trains on the Auckland network.
+- **Addressable LEDs:** ~150 WS2812B-compatible RGB LEDs (1.6x1.5mm) for a vibrant display.
+- **Wi-Fi Connectivity:** ESP32-C3's built-in Wi-Fi fetches live train data.
+- **Custom PCB:** Designed for JLCPCB manufacturing limits.
+- **Open Source:** Hardware and firmware are open source.
 
-![ESP32-C3 PCB Render](Images/ESP32C3-PCB-Render.avif)
+---
 
 ## Hardware
 
-The core components of the map include:
+- **Microcontroller:** ESP32-C3 (RISC-V, 160 MHz, 4 MB Flash, QFN32)
+- **LEDs:** ~150 x XL-1615RGBC-WS2812B (1.6mm x 1.5mm)
+- **PCB:** 249mm x 66mm, JLCPCB-friendly
+- **Antenna:** On-board PCB antenna ([TI CC2430DB design](https://www.ti.com/lit/ug/swru125/swru125.pdf))
 
-* **Microcontroller:** ESP32-C3
-  * **CPU:** RISC-V single-core @ 160 MHz
-  * **Wireless:** 2.4 GHz Wi-Fi (802.11b/g/n) and Bluetooth 5 (LE)
-  * **Flash:** 4 MB internal Flash
-  * **Package:** QFN32 (5x5 mm)
-* **LEDs:** ~150 x XL-1615RGBC-WS2812B (1.6mm x 1.5mm Addressable RGB LEDs)
-* **PCB:**
-  * **Dimensions:** 249mm x 66mm
-  * **Manufacturer Friendly:** Designed to fit within JLCPCB's standard 250mm x 250mm maximum size.
-* **Antenna:** On-board PCB antenna based on the [Texas Instruments CC2430DB Demo Board design (SWCU125)](https://www.ti.com/lit/ug/swru125/swru125.pdf).
+![ESP32-C3 PCB Render](Images/ESP32C3-PCB-Render.avif)
 
-![Images\Pukekohe-PCB-Render.avif](Images/ESP32C3-PCB-Render.avif)
+![Pukekohe PCB Render](Images/Pukekohe-PCB-Render.avif)
+
+---
 
 ## PCB Design
 
-The Printed Circuit Board (PCB) was designed using KiCad V9.0 and utilizes my custom [JLCPCB KiCad Library](https://github.com/CDFER/jlcpcb-kicad-library)
-
-* **View Online:** You can view the PCB layout interactively using the Kicanvas web viewer:
-    [https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FCDFER%2FAuckland-LED-Train-Map%2Ftree%2Fmain%2FPCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FCDFER%2FAuckland-LED-Train-Map%2Ftree%2Fmain%2FPCB)
-* **Source Files:** The KiCad project files (schematic, PCB layout) can be found in the `/PCB` directory of this repository.
+- Designed in **KiCad V9.0** using [JLCPCB KiCad Library](https://github.com/CDFER/jlcpcb-kicad-library)
+- **View Online:** [Interactive PCB Layout (Kicanvas)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FCDFER%2FAuckland-LED-Train-Map%2Ftree%2Fmain%2FPCB)
+- **Source Files:** `/PCB` directory
 
 ![Schematic](Images/Schematic.avif)
 
+---
+
 ## Software / Firmware
 
-*(This section is a placeholder - details about the specific firmware, data source, setup instructions, and required libraries will be added here when it is completed.)*
+The ESP32-C3 firmware is responsible for:
 
-The firmware running on the ESP32-C3 is responsible for:
+1. Connecting to Wi-Fi
+2. Fetching live train data from the [GTFS Realtime Cache API](https://github.com/CDFER/GTFS-Realtime-Cache-Server)
+3. Processing data to determine train locations
+4. Controlling WS2812B LEDs to display train positions
 
-1. Connecting to a Wi-Fi network.
-2. Fetching live train data from my cached GTFS API <https://github.com/CDFER/GTFS-Realtime-Cache-Server>
-3. Processing the data to determine train locations on the map segments.
-4. Controlling the WS2812B LEDs to display the train positions.
+---
+
+## Getting Started
+
+1. **Flash the Firmware:**
+   - Use the [Web Installer](#web-installer) (recommended, no drivers needed)
+   - Or flash manually using PlatformIO (`Firmware/` directory)
+2. **Connect to Wi-Fi:**
+   - On first boot, use the web interface to configure Wi-Fi credentials.
+3. **Power the Board:**
+   - Use a 5V USB-C power supply capable of at least 1A.
+4. **Enjoy the Live Map!**
+
+---
+
+## Web Installer
+
+Easily flash the latest firmware to your ESP32-C3 using your browser:
+
+[Open the Auckland LED Train Map Web Installer](https://cdfer.github.io/Auckland-LED-Train-Map/led-rails.html)
+
+- Works with Chrome, Edge, or any Web Serial-compatible browser
+- Follow on-screen instructions to connect and flash your device
+
+---
+
+## Links
+
+- [Web Installer](https://cdfer.github.io/Auckland-LED-Train-Map/led-rails.html)
+- [Interactive PCB Viewer](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FCDFER%2FAuckland-LED-Train-Map%2Ftree%2Fmain%2FPCB)
+- [GTFS Realtime Cache API](https://github.com/CDFER/GTFS-Realtime-Cache-Server)
+- [JLCPCB KiCad Library](https://github.com/CDFER/jlcpcb-kicad-library)
+
+---
 
 ## Contributing
 
-Contributions are welcome! If you have improvements, bug fixes, or feature suggestions, please feel free to open an issue or submit a pull request.
+Contributions are welcome! Open an issue or submit a pull request for improvements, bug fixes, or feature suggestions.
+
+---
 
 ## License
 
-This library is released under the MIT license
+This project is released under the MIT license.
 
 © 2025 Chris Dirks
