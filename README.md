@@ -1,7 +1,6 @@
 # Auckland Live LED Train Map
 
 [![Hardware, Software and Documentation License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL3+-yellow.svg)](LICENSE)
-[![PlatformIO](https://img.shields.io/badge/built%20with-PlatformIO-orange?logo=platformio)](https://platformio.org/)
 [![Made with KiCad](https://img.shields.io/badge/Made%20with-KiCad-blue?logo=kicad)](https://kicad.org/)
 
 **You can now support my work by buying this through my store:** [**https://keastudios.co.nz/store/akl-ltm/**](https://keastudios.co.nz/store/akl-ltm/)
@@ -63,20 +62,14 @@ A physical, real-time LED map of the Auckland train network, powered by an ESP32
 
 ## Software / Firmware
 
-The ESP32-C3 firmware is responsible for:
-
-1. Connecting to Wi-Fi
-2. Fetching live train data from the [GTFS Realtime Cache API](https://github.com/CDFER/GTFS-Realtime-Cache-Server)
-3. Processing data to determine train locations
-4. Controlling WS2812B LEDs to display train positions
+The firmware has been moved to it own repo now and can be found here: [LED-Rails-Firmware](https://github.com/CDFER/LED-Rails-Firmware)
 
 ---
 
 ## Getting Started
 
 1. **Flash the Firmware:**
-   - Use the [Web Installer](#web-installer) (recommended, no drivers needed)
-   - Or flash manually using PlatformIO (`Firmware/` directory)
+   - Use the [Web Installer](https://cdfer.github.io/LED-Rails-Firmware/led-rails.html) (recommended, no drivers needed)
 2. **Connect to Wi-Fi:**
    - On first boot, use the web interface to configure Wi-Fi credentials.
 3. **Power the Board:**
@@ -89,7 +82,7 @@ The ESP32-C3 firmware is responsible for:
 
 Easily flash the latest firmware to your ESP32-C3 using your browser:
 
-[Open the Auckland LED Train Map Web Installer](https://cdfer.github.io/Auckland-LED-Train-Map/led-rails.html)
+[Open the LED Rails Web Installer](https://cdfer.github.io/LED-Rails-Firmware/led-rails.html)
 
 - Works with Chrome, Edge, or any Web Serial-compatible browser
 - Follow on-screen instructions to connect and flash your device
@@ -98,7 +91,7 @@ Easily flash the latest firmware to your ESP32-C3 using your browser:
 
 ## Links
 
-- [Web Installer](https://cdfer.github.io/Auckland-LED-Train-Map/led-rails.html)
+- [Web Installer](https://cdfer.github.io/LED-Rails-Firmware/led-rails.html)
 - [Interactive PCB Viewer](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FCDFER%2FAuckland-LED-Train-Map%2Ftree%2Fmain%2FPCB)
 - [GTFS Realtime Cache API](https://github.com/CDFER/GTFS-Realtime-Cache-Server)
 - [JLCPCB KiCad Library](https://github.com/CDFER/jlcpcb-kicad-library)
